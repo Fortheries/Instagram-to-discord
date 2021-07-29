@@ -28,7 +28,7 @@ import time
 # Set TIME_INTERVAL to the time in seconds in between each check for a new post. Example - 1.5, 600 (default=600)
 # Help: https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-environment-variables-in-linux/
 
-INSTAGRAM_USERNAME = os.environ.get('IG_USERNAME')
+INSTAGRAM_USERNAME = os.environ.get('kimmy_kimberley')
 
 # ----------------------- Do not modify under this line ----------------------- #
 
@@ -57,7 +57,7 @@ def get_description_photo(html):
     return html.json()["graphql"]["user"]["edge_owner_to_timeline_media"]["edges"][0]["node"]["edge_media_to_caption"]["edges"][0]["node"]["text"]
 
 
-def webhook(webhook_url, html):
+def webhook(https://discord.com/api/webhooks/870396530127949895/Xays8sRbOfOQPWO0N3rZPfPBOtXxCUjVoOeBPPtJnNgCSz8hRXYSRAH1F5_nfAusK0gE, html):
     # for all params, see https://discordapp.com/developers/docs/resources/webhook#execute-webhook
     # for all params, see https://discordapp.com/developers/docs/resources/channel#embed-object
     data = {}
